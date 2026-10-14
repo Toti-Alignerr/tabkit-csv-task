@@ -1,0 +1,13 @@
+[package]
+name = "tabkit"
+version = "0.6.1"
+edition = "2021"
+rust-version = "1.80"
+description = "CSV reading, writing and conversion utilities"
+publish = false
+
+[dependencies]
+
+[[bin]]
+name = "tabkit"
+path = "src/main.rs"
